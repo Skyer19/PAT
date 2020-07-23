@@ -1,6 +1,4 @@
-#include<iostream>
-#include<cstdio>
-//Î´Íê´ıĞø 
+#include<bits/stdc++.h>
 using namespace std;
 int a[6]={0};
 int n,num,j,maxn;
