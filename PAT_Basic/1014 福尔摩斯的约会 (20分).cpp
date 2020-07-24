@@ -44,10 +44,6 @@ int main(){
 	length = min(s3.length(),s4.length());
 	for(int i = 0; i <length ;i++){
 		if(s3[i]==s4[i]&& ((s3[i]<='Z'&&s4[i]>='A')||(s3[i]<='z'&&s4[i]>='a')) ){
-//			if(i<10){
-//				cout<<0;
-//			}
-//			cout<<i<<endl;
  		printf("%02d", i);	
 			break;
 		}	
