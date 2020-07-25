@@ -28,7 +28,8 @@ int main(){
 	sort(k,k+kind,cmp);
 
 	int j = 0;
-	while(tons!=0){
+	//也可以用for循环 
+	while(tons!=0&&j<kind){  //注意判断要完整，不能缺少j < kind 
 		if(tons>=k[j].sum){
 			a+=k[j].money;
 			tons-=k[j].sum;
@@ -39,4 +40,5 @@ int main(){
 		j++;
 	}
 	printf("%.02f",a);
+	return 0;
 }
