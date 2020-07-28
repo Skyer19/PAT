@@ -8,7 +8,8 @@ int main(){
 		if(s2.find(s1[i]) == string::npos&&ans.find(toupper(s1[i])) == string::npos){
 			ans+=toupper(s1[i]);
 		}
+	}
 		cout<<ans<<endl;
 		return 0;
-	}
+	
 }
